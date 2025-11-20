@@ -1,0 +1,13 @@
+app:
+  env: dev
+  log_level: INFO
+database:
+  url: ${DATABASE_URL}
+scraping:
+  providers: [indeed, remoteok, wellfound, weworkremotely]
+  request_delay_seconds: 1.0
+nlp:
+  use_llm: false
+  embeddings_provider: ${EMBEDDINGS_PROVIDER}
+forecasting:
+  horizon_weeks: 12

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+data/notebooks_data/
+
+# Node
+node_modules/
+dist/
+build/
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# Logs
+logs/
+*.log

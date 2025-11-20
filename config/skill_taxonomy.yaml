@@ -1,0 +1,5 @@
+families:
+  languages: [python, javascript, typescript, java, go, rust, c++, sql]
+  frameworks: [react, node.js, django, flask, spring, fastapi, next.js]
+  data: [pandas, numpy, pyspark, airflow, kafka, snowflake, bigquery, dbt]
+  cloud: [aws, gcp, azure, docker, kubernetes, terraform]
